@@ -2,7 +2,8 @@ import { NextConfig } from 'next';
 const nextConfig: NextConfig = {
   reactStrictMode: true,
   output: 'export', // Enables static export for GitHub Pages
-  basePath: '/iamabdulmozid.github.io', // Replace <repository-name> with your GitHub repository name
+  basePath: "/iamabdulmozid.github.io", // Update with your repository name
+  assetPrefix: "/iamabdulmozid.github.io", // Update with your repository name
 };
 
 export default nextConfig;
